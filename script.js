@@ -22,7 +22,7 @@ trialForm.addEventListener("submit", async (e) => {
 
     try {
 
-        const response = await fetch("https://script.google.com/macros/library/d/1JevRTRIHMzXd23htvmm_nQBC4MEiwNTDwzPn5kc2b-_FSz546cgK9Dmm/5", {
+        const response = await fetch("https://script.google.com/macros/s/AKfycbz49Qraq2P-dP4XfXpm4li7k78aP_cHPwksZBQxtBw-puGgKjpV-gIKrfEi4qYG9vBj/exec", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
